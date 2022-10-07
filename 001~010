@@ -1,0 +1,29 @@
+print("Hello World")
+#001번
+
+print("Mary's cosmetics")
+#002번
+
+print('신씨가 소리질렀다. "도둑이야"')
+#003번
+
+print('"C:\Windows"')
+#004번
+
+print("안녕하세요.\n만나서\t\t반갑습니다.")
+#005번. \n으로 엔터키, \t로 탭키 입력처리
+
+print("오늘은","금요일","기분조아")
+#006번
+
+print("naver","kakao","sk","samsung",sep=";")
+#007번, sep=";"로 공백대신 세미콜론 출력, sep 인자로 문자열을 다르게 결합
+
+print("naver","kakao","sk","samsung",sep="/")
+#008번, sep="/"로 공백대신 슬래시 출력
+
+print("first",end=""); print("second")
+#009번, end=""로 print 함수의 마지막 효과 변경, 원래의 경우에는 엔터, 이번에는 공백없이 연결처리
+
+print(5/3)
+#010번, 연산 결과의 경우 큰따옴표 없이 입력하면 결과 도출됨
